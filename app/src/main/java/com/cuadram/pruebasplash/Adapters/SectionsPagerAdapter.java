@@ -9,9 +9,7 @@ import com.cuadram.pruebasplash.R;
 
 import java.util.Locale;
 
-/**
- * Created by Cristhian on 24/2/18.
- */
+
 
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
@@ -45,14 +43,5 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         return null;
     }
 
-   /* public int getIcon(int position){
-        switch (position){
-            case 0:
-                return R.drawable.ic_tab_inbox;
-            case 1:
-                return R.drawable.ic_tab_friends;
 
-        }
-        return R.drawable.ic_tab_inbox;
-    }*/
 }

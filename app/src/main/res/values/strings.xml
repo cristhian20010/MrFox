@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PruebaSplash</string>
+    <string name="app_name">MrFox</string>
     <string name="title">TERETERE</string>
     <string name="subtitle">Busca- Encuentra-Viaja</string>
     <string name="action_settings">Settings</string>
@@ -26,5 +26,6 @@
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
+    <string name="bienvenidos">Bienvenido a mi aplicacion</string>
 
 </resources>

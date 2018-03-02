@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/fondo"
+    android:background="@color/colorPrimaryDark"
     tools:context="com.cuadram.pruebasplash.LoginActivity">
     <!--android:background="@drawable/background_fill"-->
 
@@ -16,7 +16,7 @@
         android:layout_alignParentStart="true"
         android:contentDescription="@string/backimage_description"
         android:scaleType="fitEnd"
-        android:src="@drawable/teretere" />
+        android:src="@drawable/fox" />
 
 
     <TextView
@@ -26,7 +26,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="TERETERE"
+        android:text="FOX"
         android:textColor="@android:color/white"
         android:textSize="60sp"
         android:textStyle="bold" />
@@ -39,10 +39,10 @@
         android:layout_below="@id/Subtitle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="0dp"
-        android:text="VIAJAR-VIAJAR Y VIAJAR"
         android:textColor="@android:color/white"
         android:textSize="15sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:text="@string/bienvenidos" />
 
     <LinearLayout
         android:id="@+id/keysLayout"
@@ -104,17 +104,6 @@
         android:textSize="13sp" />
 
 
-    <TextView
-        android:id="@+id/signup_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_alignLeft="@+id/subtitle"
-        android:layout_alignStart="@+id/subtitle"
-        android:layout_below="@+id/loginbutton"
-        android:layout_marginTop="24dp"
-        android:text="No tienes cuesta? Registrate"
-        android:textColor="@android:color/holo_red_dark" />
     <!--android:onClick="onClick"-->
     <!--android:clickable="true"-->
 

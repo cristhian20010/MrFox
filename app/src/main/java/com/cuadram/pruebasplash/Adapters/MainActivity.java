@@ -13,9 +13,6 @@ import android.view.MenuItem;
 import com.cuadram.pruebasplash.LoginActivity;
 import com.cuadram.pruebasplash.R;
 
-/**
- * Created by Cristhian on 24/2/18.
- */
 
 public class MainActivity extends AppCompatActivity {
 
